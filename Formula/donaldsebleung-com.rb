@@ -1,7 +1,7 @@
 class DonaldsebleungCom < Formula
   desc "My personal website reinstated, this time written in Spring"
   homepage "https://github.com/DonaldKellett/donaldsebleung-com"
-  url "https://github.com/DonaldKellett/donaldsebleung-com/archive/refs/tags/v0.1.0.tar.gz"
+  url "https://github.com/DonaldKellett/donaldsebleung-com/archive/refs/tags/v0.2.0.tar.gz"
   sha256 "56a6ebd45d594ccecdf0ffe4bdd083d50b41e84a47c923386fad49d53c88ad7a"
   license "MIT"
   depends_on "maven" => :build
@@ -74,7 +74,7 @@ class DonaldsebleungCom < Formula
       
       case $1 in
         get-version)
-          echo "0.1.0"
+          echo "0.2.0"
           exit
           ;;
         install-key)
