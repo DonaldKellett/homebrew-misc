@@ -2,7 +2,7 @@ class DonaldsebleungCom < Formula
   desc "My personal website reinstated, this time written in Spring"
   homepage "https://github.com/DonaldKellett/donaldsebleung-com"
   url "https://github.com/DonaldKellett/donaldsebleung-com/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "56a6ebd45d594ccecdf0ffe4bdd083d50b41e84a47c923386fad49d53c88ad7a"
+  sha256 "d608532929ea9865b84ae705b5ea8041a39d01caa9256858dd49fdae21091c76"
   license "MIT"
   depends_on "maven" => :build
   depends_on "openjdk"
